@@ -154,3 +154,16 @@ The string s will be pointed by two pointer!
 
 ## Exercise 13.26 [.h](ex13_26.h) | [.cpp](ex13_26.cpp)
 
+## [Exercise 13.27](ex13_27.h)
+
+## Exercise 13.28 [.h](ex13_28.h) | [.cpp](ex13_28.cpp)
+
+## Exercise 13.29:
+> Explain why the calls to swap inside swap(HasPtr&, HasPtr&) do not cause a recursion loop.
+
+Because `swap(lhs.ps, rhs.ps)` calls `swap(string*, string*)`; `swap(lhs.i, rhs.i)` calls `swap(int, int)`. They dont call `swap(HasPtr&, HasPtr&)`.
+
+
+
+
+

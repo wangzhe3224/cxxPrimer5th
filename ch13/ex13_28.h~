@@ -1,0 +1,33 @@
+#idndef EX13_27_H
+#define EX13_27_H
+
+#include <string>
+
+class HasPtr {
+ private:
+  std::string *ps;
+  int id;
+  size_t *use;
+ public:
+ HasPtr(const std::string &s = std::string()): ps(new std::string(s)), id(0), use(new size_t(1)) {}
+ HasPtr(const HasPtr &cp): ps(cp.ps), id(cp.id), use(cp.use) {++*use;}
+  HasPtr& operator=(const HasPtr &rhs) {
+    ++*rhs.use;
+    if (--*use == 0) {
+      delete ps;
+      delete use;
+    }
+    ps = rhs.ps;
+    i = rhs.i;
+    use = rhs.use;
+    return *this;
+  }
+  ~HasPtr() {
+    if (--*use == 0) {
+      delete ps;
+      delete use;
+    }
+  } 
+};
+
+#endif
