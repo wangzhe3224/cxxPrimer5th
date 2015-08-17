@@ -85,19 +85,19 @@ The type of c is `const char&`.
 ## Exercise 3.13:
 > How many elements are there in each of the following vectors? What are the values of the elements?
 
--(a) vector<int> v1; //  *0 with value 0*
+- (a) vector<int> v1; //  *0 with value 0*
 
--(b) vector<int> v2(10);  // *10 with value 0*
+- (b) vector<int> v2(10);  // *10 with value 0*
 
--(c) vector<int> v3(10, 42); // *10 elements with value 1*
+- (c) vector<int> v3(10, 42); // *10 elements with value 1*
 
--(d) vector<int> v4{10}; // *1 element with value 10*
+- (d) vector<int> v4{10}; // *1 element with value 10*
 
--(e) vector<int> v5{10, 42}; // *2 element with value 10 and 42*
+- (e) vector<int> v5{10, 42}; // *2 element with value 10 and 42*
 
--(f) vector<string> v6{10}; // *10 elements*
+- (f) vector<string> v6{10}; // *10 elements*
 
--(g) vector<string> v7{10, "hi"}; // *10 elements with value "hi"*
+- (g) vector<string> v7{10, "hi"}; // *10 elements with value "hi"*
 
 
 
