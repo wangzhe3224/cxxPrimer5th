@@ -1,4 +1,4 @@
-# Answer to Chapter 03
+# Answer to Chapter 03 - Strings, Vectors and Strings
 
 ## Exercise 3.1:
 > rewrite...
@@ -26,8 +26,8 @@ The input operator `>>` will divide the string by whitespace, while the function
 ## Exercise 3.6:
 > Use a range for to change all the characters in a string to X.
 
-```cpp
-\#include <string>
+```c++
+#include <string>
 using namespace std;
 int main() {
 	string str = "WangZhe";
@@ -36,3 +36,61 @@ int main() {
 	return 0;
 }
 ```
+-[Code](ex03_06.cpp)
+
+## Exercise 3.7:
+> What would happen if you define the loop control variable in the previous exercise as type char? Predict the results and then change your program to use a char to see if you were right.
+
+If the type in for loop is `char c`, it will not change the `str`. It should be a reference, if you want to change the string.
+
+## Exercise 3.8:
+> Rewrite the program in the first exercise, first using a while and again using a traditional for loop. Which of the three approaches do you prefer and why?
+
+[While Loop](ex03_08_1.cpp)
+
+[Traditonal for loop](ex03_08_2.cpp)
+
+I think the code in [Ex3.6](ex03-06.cpp) is better, because it is more concise.
+
+## Exercise 3.9:
+> What does the following program do? Is it valid? If not, why not?
+```cpp
+string s;
+cout << s[0] << endl;
+```
+
+`s` is empty, but the program can run without error. But it is an **undefined behaviour**.
+
+## Exercise 3.10:
+>Write a program that reads a string of characters including punctuation and writes what was read but with the punctuation removed.
+
+[Exercise 3.10](ex03_10.cpp)
+
+## Exercise 3.11:
+> Is the following range for legal? If so, what is the type of c?
+```cpp
+const string s = "Keep out!";
+for (auto &c : s) { /* ...  */ }
+```
+
+The type of c is `const char&`.
+
+## Exercise 3.12:
+> Which, if any, of the following vector definitions are in error? For those that are legal, explain what the definition does. For those that are not legal, explain why they are illegal.
+
+1. vector<vector<int>> ivec;         **legal**
+2. vector<string> svec = ivec;       **illegal**
+3. vector<string> svec(10, "null");  **legal** string with 10 "null"s
+
+## Exercise 3.13:
+> How many elements are there in each of the following vectors? What are the values of the elements?
+
+-(a) vector<int> v1; //  *0 with value 0*
+-(b) vector<int> v2(10);  // *10 with value 0*
+-(c) vector<int> v3(10, 42); // *10 elements with value 1*
+-(d) vector<int> v4{10}; // *1 element with value 10*
+-(e) vector<int> v5{10, 42}; // *2 element with value 10 and 42*
+-(f) vector<string> v6{10}; // *10 elements*
+-(g) vector<string> v7{10, "hi"}; // *10 elements with value "hi"*
+
+
