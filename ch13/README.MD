@@ -180,4 +180,4 @@ Because the function `save(Folder&)` and `remove(Folder&)` need change folder
 ## Exercise 13.34:
 > Write the Message class as described in this section.
 
-[Exercise 13.34]()
+[Exercise 13.34](classMessage.h)
