@@ -6,7 +6,7 @@
 ## Exercise 3.2:
 > Write a program to read the standard input a line at a time. Modify your program to read a word at a time.
 
-[Exercise 3.2](ex03_01.cpp)
+[Exercise 3.2 code](ex03_01.cpp)
 
 ## Exercise 3.3:
 > Explain how whitespace characters are handled in the string input operator and in the getline function.
@@ -16,12 +16,12 @@ The input operator `>>` will divide the string by whitespace, while the function
 ## Exercise 3.4:
 > Write a program to read two strings and report whether the strings are equal. If not, report which of the two is larger. Now, change the program to report whether the strings have the same length, and if not, report which is longer.
 
-### [Exercise 3.4](ex03_04.cpp)
+### [Exercise 3.4 code](ex03_04.cpp)
 
 ## Exercise 3.5:
 > Write a program to read strings from the standard input, concatenating what is read into one large string. Print the concatenated string. Next, change the program to separate adjacent input strings by a space.
 
-### [Exercise 3.5](ex03_05.cpp)
+### [Exercise 3.5 code](ex03_05.cpp)
 
 ## Exercise 3.6:
 > Use a range for to change all the characters in a string to X.
@@ -36,7 +36,7 @@ int main() {
 	return 0;
 }
 ```
--[Code](ex03_06.cpp)
+- [Code](ex03_06.cpp)
 
 ## Exercise 3.7:
 > What would happen if you define the loop control variable in the previous exercise as type char? Predict the results and then change your program to use a char to see if you were right.
