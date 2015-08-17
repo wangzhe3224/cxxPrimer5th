@@ -1,0 +1,12 @@
+// class Message
+
+#ifndef Message_h
+#define Message_h
+
+#include <string>
+
+class Message {
+  
+};
+
+#endif

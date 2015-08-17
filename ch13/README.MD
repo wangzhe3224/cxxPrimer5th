@@ -163,7 +163,21 @@ The string s will be pointed by two pointer!
 
 Because `swap(lhs.ps, rhs.ps)` calls `swap(string*, string*)`; `swap(lhs.i, rhs.i)` calls `swap(int, int)`. They dont call `swap(HasPtr&, HasPtr&)`.
 
+## [Exercise 13.30](ex13_30.h)
 
+## [Exercise 13.31](ex13_31.h)
 
+## Exercise 13.32:
+> Would the pointerlike version of HasPtr benefit from defining a swap function? If so, what is the benefit? If not, why not?
 
+Yes.
 
+## Exercise 13.33:
+> Why is the parameter to the save and remove members of Message a Folder&? Why didn’t we define that parameter as Folder? Or const Folder&?
+
+Because the function `save(Folder&)` and `remove(Folder&)` need change folder
+
+## Exercise 13.34:
+> Write the Message class as described in this section.
+
+[Exercise 13.34]()
