@@ -180,4 +180,14 @@ Because the function `save(Folder&)` and `remove(Folder&)` need change folder
 ## Exercise 13.34:
 > Write the Message class as described in this section.
 
-[Exercise 13.34](classMessage.h)
+## [Exercise 13.34 - 13.37](classMessage.h)
+
+## Exercise 13.38:
+> We did not use copy and swap to define the Message assignment operator. Why do you suppose this is so?
+
+No dynamic allocate memory is uesd in class Message and class Folder. In both two classes, the container `set` is used to handle dynamic behaviour.
+
+## Exercise 13.39:
+
+
+
