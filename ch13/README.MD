@@ -34,11 +34,17 @@ Point foo_bar(Point arg)
 }
 ```
 
-[Exercise 13.5]()
+[Exercise 13.5](ex13_05.h)
 
 ## Exercise 13.6:
 > What is a copy-assignment operator? When is this operator used?
 > what does the synthesized copy-assignment operator do?
 > When is it synthesized?
+
+- A copy-assignment operator is a function named **operator=**
+- This operator is used when assignment is used.
+- the synthesized copy-assignment operator assigns each *nonstatic* member of the right-hand object to the corresponding member of the left-hand object. This assignment operator returns a reference to its left-hand object.
+- It is synthesized when the class doesn't have a defined copy-assignment operator
+
 
 
