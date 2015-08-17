@@ -152,5 +152,5 @@ The string s will be pointed by two pointer!
 > Assume we want to define a version of StrBlob that acts like a value. Also assume that we want to continue to use a shared_ptr so that our StrBlobPtr class can still use a weak_ptr to the vector. Your revised class will need a copy constructor and copy-assignment operator but will not need a destructor. Explain what the copy constructor and copy- assignment operators must do. Explain why the class does not need a destructor.
 
 
-## Exercise 13.26 [h](ex13_26.h)[cpp](ex13_26.cpp)
+## Exercise 13.26 [.h](ex13_26.h) | [.cpp](ex13_26.cpp)
 
