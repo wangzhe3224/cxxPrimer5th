@@ -35,3 +35,10 @@ Point foo_bar(Point arg)
 '''
 
 [Exercise 13.5]()
+
+## Exercise 13.6:
+> What is a copy-assignment operator? When is this operator used?
+> what does the synthesized copy-assignment operator do?
+> When is it synthesized?
+
+
