@@ -14,15 +14,15 @@ The fallowing conditions need copy constructor:
 
 ## Exercise 13.2:
 >Explain why the following declaration is illegal:
-'''cpp
+```cpp
 Sales_data::Sales_data(Sales_data rhs);
-''
+```
 
 This is a copy constructor and the parameter of copy constructor must by a refrence.
 
 ## Exercise 13.4:
 > Assuming Point is a class type with a public copy constructor, identify each use of the copy constructor in this program fragment:
-'''cpp
+```cpp
 Point globla;
 Point foo_bar(Point arg)
 {
@@ -32,6 +32,13 @@ Point foo_bar(Point arg)
 	Point pa[4]  = {local, *heap}; // (4)(5)
 	return *heap; // (6)
 }
-'''
+```
 
 [Exercise 13.5]()
+
+## Exercise 13.6:
+> What is a copy-assignment operator? When is this operator used?
+> what does the synthesized copy-assignment operator do?
+> When is it synthesized?
+
+
