@@ -152,8 +152,6 @@ while (iter != mid)
 
 *How to fix this?*
 
-```cpp
-
 
 ## Exercise 9.23:
 > In the first program in this section on page 346, what would the values of val, val2, val3, and val4 be if c.size() is 1?
