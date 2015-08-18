@@ -136,4 +136,63 @@ No. `push_back()` should be used here. `ivec[0]` is an empty value.
 
 [Exercise 3.20 Code](ex03_20.cpp)
 
+## Exercise 3.21:
+> Redo the first exercise from 3.3.3 using iterators.
+
+[Exercise 3.21 Code](ex03_21.cpp)
+
+## Exercise 3.22:
+>Revise the loop that printed the first paragraph in text to instead change the elements in text that correspond to the first paragraph to all uppercase. After you’ve updated text, print its contents.
+
+[Exercise 3.22 code](ex03_22.cpp)
+
+## Exercise 3.23:
+> Write a program to creat a vector with ten int elements. Using an iterator, assign each element a value that is twice its current value.
+
+[Exercise 3.23 code](ex03_23.cpp)
+
+## Exercise 3.24:
+>Redo the last exercise from § 3.3.3 (p. 105) using iterators.
+
+## Exercise 3.25:
+>Rewrite the grade clustering program from § 3.3.3 (p. 104) using iterators instead of subscripts.
+
+## Exercise 3.26:
+> In the binary search program on page 112, why did we write mid = beg + (end - beg) / 2; instead of mid = (beg + end) /2;?
+
+`(beg+end)/2` is meaningless...
+
+## Exercise 3.27:
+>Assuming txt_size is a function that takes no arguments and returns an int value, which of the following definitions are illegal? Explain why.
+```cpp
+unsigned buf_size = 1024; // 
+(a) int ia[buf_size]; // **Illegal. The dimension must be a constant expression**
+(b) int ia[4 * 7 - 14]; // **leagal**
+(c) int ia[txt_size()]; // **Illegal**
+(d) char st[11] = "fundamental"; // **Illegal**
+
+```
+
+##Exercise 3.28
+>What are the values in the following arrays?
+
+```cpp
+string sa[10];      //all elements are empty strings
+int ia[10];         //all elements are 0
+
+int main()
+{
+string sa2[10]; //all elements are empty strings
+int ia2[10];    //all elements are undefined
+}
+```
+
+##Exercise 3.29:
+>List some of the drawbacks of using an array instead of a vector.
+
+1. Size is fixed at compiling time.
+2. No API as that of vector.
+3. Bug prone.
+
+
 
