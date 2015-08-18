@@ -99,5 +99,40 @@ The type of c is `const char&`.
 
 - (g) vector<string> v7{10, "hi"}; // *10 elements with value "hi"*
 
+## Exercise 3.14:
+> Write a program to read a sequence of ints from cin and store those values in a vector.
 
+[Exercise 3.14 code](ex03_14.cpp)
+
+## Exercise 3.15:
+> Repeat....
+
+## [Exercise 3.16](ex03_16.cpp)
+
+## [Exercise 3.17](ex03_17.cpp)
+
+## Exercise 3.18:
+> Is the following program legal? If not, how might you fix it?
+```cpp
+vector<int> ivec;
+ivec[0] = 42;
+```
+
+No. `push_back()` should be used here. `ivec[0]` is an empty value.
+
+## Exercise 3.19:
+> List three ways to define a vector and give it ten elements, each with the value 42. Indicate whether there is a preferred way to do so and why.
+
+- vector<int> ivec1(10, 42);
+- vector<int> ivec2{42,42, 42, 42, 42, 42, 42, 42, 42, 42 };
+- ```cpp
+vector<int> ivec3;
+for (int i = 0; i != 10; ++i)
+    ivec3.push_back(10);
+	```
+
+## Exercise 3.20:
+> Read a set of integers into a vector. Print the sum of each pair of adjacent elements. Change your program so that it prints the sum of the first and last elements, followed by the sum of the second and second-to- last, and so on.
+
+[Exercise 3.20 Code](ex03_20.cpp)
 
