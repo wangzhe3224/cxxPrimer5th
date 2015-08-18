@@ -129,10 +129,11 @@ No. `push_back()` should be used here. `ivec[0]` is an empty value.
 vector<int> ivec3;
 for (int i = 0; i != 10; ++i)
     ivec3.push_back(10);
-	```
+```
 
 ## Exercise 3.20:
 > Read a set of integers into a vector. Print the sum of each pair of adjacent elements. Change your program so that it prints the sum of the first and last elements, followed by the sum of the second and second-to- last, and so on.
 
 [Exercise 3.20 Code](ex03_20.cpp)
+
 
