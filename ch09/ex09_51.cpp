@@ -9,10 +9,14 @@ int main()
   bool bSeen = false;
   stack<char> stk;
   for (const auto &s : expression) {
-    if (s == '(') { bSeen = true; continue; }
-    else if (s == ')') bSeen = false;
+    if (s == '(') {
+      bSeen = true; continue;
+    }
+    else if (s == ')')
+      bSeen = false;
     
-    if (bSeen) stk.push(s);
+    if (bSeen)
+      stk.push(s);
   }
     
   string repstr;
