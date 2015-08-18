@@ -37,4 +37,5 @@ vector<int> vec;
 vec.reserve(10); // reserve is covered in § 9.4 (p. 356)
 fill_n(vec.begin(), 10, 0);
 ```
-> 
+
+See the fixed [Code](ex10_07.cpp)
