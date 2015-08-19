@@ -106,6 +106,7 @@ bind(func0, parameters);
 
 ## Exercise 10.38:
 > List the five iterator categories and the operations that each supports.
+
 - Input iterator: `==`, `!=`, `++`, `*`, `->`
 
 - Output iterator: `++`, `*`
