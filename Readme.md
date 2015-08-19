@@ -4,7 +4,7 @@
 
 ## [Chapter 10](ch10)
 
-## [Chapter](ch11)
+## [Chapter 11](ch11)
 
 ## [Chapter 13 Copy Control](ch13)
 
