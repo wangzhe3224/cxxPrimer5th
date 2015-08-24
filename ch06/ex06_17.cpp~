@@ -1,0 +1,10 @@
+#include <iostream>
+#include <string>
+
+bool hasCapital(std::string &s) {
+  for (auto i : s) {
+    if (isupper(i))
+      reutrn true;
+  }
+  return false;
+}

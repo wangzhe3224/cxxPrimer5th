@@ -1,0 +1,10 @@
+#include <iostream>
+
+int myfunc() {
+  int i, result;
+  while (std::cin >> i) {
+    for (;i>0;--i) {
+       
+    }
+  }
+}
