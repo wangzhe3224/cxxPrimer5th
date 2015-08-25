@@ -229,4 +229,31 @@ What is a `viable function`?
 `viable function`: a function must have the same number of parameters as there are arguments in the call, and the type of each argument must match—or be convertible to—the type of its corresponding parameter.     
 
 ## Exercise 6.50
-(a)
+
+(a) ambiguous
+
+(b) match `void f(int)`
+
+(c) match `void f(int, int)`
+
+(d) match `void f(double, doble`
+
+## [Exercise 6.51](ex06_51.cpp)
+
+## Exercise 6.52
+
+(a) char promoted to int
+
+(b) double converts to int
+
+## Exercise 6.53
+
+(a) legal, low level const makes difference in function call
+
+(b) ditto
+
+(c) illegal. top level const mekes no different in function call.
+
+## [Exercise 6.54 - 6.56](ex06_54.cpp)
+
+
