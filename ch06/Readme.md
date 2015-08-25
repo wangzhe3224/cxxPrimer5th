@@ -225,8 +225,8 @@ As a result, NO.
 > What is a `candidate function?`
 What is a `viable function`?
 
-`candidate function` : a function with the same name as the called function and for which a declaration is visible at the point of the call.
-`viable function`: a function must have the same number of parameters as there are arguments in the call, and the type of each argument must match—or be convertible to—the type of its corresponding parameter.
+`candidate function` : a function with the same name as the called function and for which a declaration is visible at the point of the call.     
+`viable function`: a function must have the same number of parameters as there are arguments in the call, and the type of each argument must match—or be convertible to—the type of its corresponding parameter.     
 
 ## Exercise 6.50
 (a)
