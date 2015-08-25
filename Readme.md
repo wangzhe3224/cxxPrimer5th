@@ -5,6 +5,6 @@
 ## [Chapter 05 Statements](ch05)
 ## [Chapter 06 Functions](ch06)
 ## [Chapter 09 Sequential Containers](ch09)
-## [Chapter 10](ch10)
-## [Chapter 11](ch11)
+## [Chapter 10 Generic Algorithm](ch10) 
+## [Chapter 11 Associative Containers](ch11)
 ## [Chapter 13 Copy Control](ch13)
