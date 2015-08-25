@@ -1,12 +1,10 @@
 # Answer to C++ Primer (5th)
-
-## [Chapter 03](ch03)
-
+## [Chapter 02 Varibles and Basic Types](ch02)
+## [Chapter 03 Strings, Vectors and Arrays](ch03)
+## [Chapter 04 Expressions](ch04)
+## [Chapter 05 Statements](ch05)
+## [Chapter 06 Functions](ch06)
+## [Chapter 09 Sequential Containers](ch09)
 ## [Chapter 10](ch10)
-
 ## [Chapter 11](ch11)
-
 ## [Chapter 13 Copy Control](ch13)
-
-## Chaptet 14 Overloading Operator
-
