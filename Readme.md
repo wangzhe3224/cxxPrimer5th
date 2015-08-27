@@ -4,6 +4,7 @@
 ## [Chapter 04 Expressions](ch04)
 ## [Chapter 05 Statements](ch05)
 ## [Chapter 06 Functions](ch06)
+## [chapter 07 Classes](ch07)
 ## [Chapter 09 Sequential Containers](ch09)
 ## [Chapter 10 Generic Algorithm](ch10) 
 ## [Chapter 11 Associative Containers](ch11)
