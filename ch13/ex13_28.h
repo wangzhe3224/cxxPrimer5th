@@ -1,3 +1,11 @@
+/*
+  ex13_28.h
+  
+  Exercise 13.28
+
+  Created by Wang Zhe on Mon Aug 17 17:24:05 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #idndef EX13_28_H
 #define EX13_28_H
 

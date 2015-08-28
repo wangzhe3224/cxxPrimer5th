@@ -1,3 +1,11 @@
+/*
+  ex06_23.cpp
+  
+  Exercise 06.23
+
+  Created by Wang Zhe on Mon Aug 24 18:21:58 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 
 void print(const int *beg,const int *end) {

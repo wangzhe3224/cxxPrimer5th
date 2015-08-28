@@ -1,3 +1,11 @@
+/*
+  ex02_34.cpp
+  
+  Exercise 02.34
+
+  Created by Wang Zhe on Fri Aug 21 15:04:44 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 
 int main() {

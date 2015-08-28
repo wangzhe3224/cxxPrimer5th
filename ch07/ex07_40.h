@@ -1,3 +1,11 @@
+/*
+  ex07_40.h
+  
+  Exercise 07.40
+
+  Created by Wang Zhe on Thu Aug 27 15:42:41 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #ifndef ex07_40_h
 #define ex07_40_h
 #include <iostream>

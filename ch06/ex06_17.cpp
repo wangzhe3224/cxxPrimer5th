@@ -1,3 +1,11 @@
+/*
+  ex06_17.cpp
+  
+  Exercise 06.17
+
+  Created by Wang Zhe on Mon Aug 24 08:40:44 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 #include <string>
 

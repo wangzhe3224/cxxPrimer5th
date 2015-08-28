@@ -1,3 +1,19 @@
+/*
+  ex10_28.cpp
+  
+  Exercise 10.28
+
+  Created by Wang Zhe on Fri Aug 28 21:03:53 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
+/*
+  ex10_28.cpp
+  
+  Exercise 10.28
+
+  Created by Wang Zhe on Wed Aug 19 16:10:27 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 #include <algorithm>
 #include <vector>

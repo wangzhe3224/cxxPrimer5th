@@ -1,3 +1,11 @@
+/*
+  ex07_23.h
+  
+  Exercise 07.23
+
+  Created by Wang Zhe on Wed Aug 26 17:17:49 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #ifndef ex07_23_h
 #define ex07_23_h
 

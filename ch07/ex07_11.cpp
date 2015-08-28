@@ -1,3 +1,11 @@
+/*
+  ex07_11.cpp
+  
+  Exercise 07.11
+
+  Created by Wang Zhe on Wed Aug 26 13:29:33 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 # include "ex07_11.h"
 
 int main() {

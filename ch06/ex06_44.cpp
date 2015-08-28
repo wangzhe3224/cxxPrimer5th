@@ -1,3 +1,11 @@
+/*
+  ex06_44.cpp
+  
+  Exercise 06.44
+
+  Created by Wang Zhe on Tue Aug 25 18:08:03 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 #include <string>
 

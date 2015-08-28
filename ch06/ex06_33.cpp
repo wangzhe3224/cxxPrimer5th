@@ -1,3 +1,11 @@
+/*
+  ex06_33.cpp
+  
+  Exercise 06.33
+
+  Created by Wang Zhe on Mon Aug 24 22:56:06 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <vector>
 #include <iostream>
 

@@ -1,3 +1,11 @@
+/*
+  ex07_41.h
+  
+  Exercise 07.41
+
+  Created by Wang Zhe on Thu Aug 27 15:57:01 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #ifndef ex07_41_h
 #define ex07_41_h
 

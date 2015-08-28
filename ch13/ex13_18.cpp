@@ -1,3 +1,11 @@
+/*
+  ex13_18.cpp
+  
+  Exercise 13.18
+
+  Created by Wang Zhe on Mon Aug 17 14:05:02 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 #include <string>
 static int base = 0;

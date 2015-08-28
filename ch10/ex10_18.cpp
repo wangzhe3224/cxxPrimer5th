@@ -1,3 +1,19 @@
+/*
+  ex10_18.cpp
+  
+  Exercise 10.18
+
+  Created by Wang Zhe on Fri Aug 28 21:03:53 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
+/*
+  ex10_18.cpp
+  
+  Exercise 10.18
+
+  Created by Wang Zhe on Wed Aug 19 12:31:24 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 #include <string>
 #include <vector>

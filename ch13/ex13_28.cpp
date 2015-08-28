@@ -1,3 +1,11 @@
+/*
+  ex13_28.cpp
+  
+  Exercise 13.28
+
+  Created by Wang Zhe on Mon Aug 17 17:24:05 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include "ex13_28.h"
 
 TreeNode& TreeNode::operator=(const TreeNode &cp) {

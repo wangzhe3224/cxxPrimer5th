@@ -1,3 +1,11 @@
+/*
+  ex11_26.cpp
+  
+  Exercise 11.26
+
+  Created by Wang Zhe on Thu Aug 20 14:58:57 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 #include <map>
 #include <string>

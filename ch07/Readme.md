@@ -207,8 +207,20 @@ No Error occurs in both case.
 >
 What will happen when call c.combine(s), where s is a string type.
 
-(a) Sales_data &combine(Sales_data); //      
-(b) Sales_data &combine(Sales_data&);  
+(a) Sales_data &combine(Sales_data); // ok     
+(b) Sales_data &combine(Sales_data&); // s can not convert to reference-to sales_data type.    
 (c) Sales_data &combine(const Sales_data&) const;  
+
+## Exercise 7.50
+
+## Exercise 7.51
+If `std::vector` define its one parameter constructor as a non-explicit version, confusion may happen:
+
+```cpp
+vector v = 10;  // odd: makes a vector of 10 doubles??
+v = 20;      // Assigns a new vector of 20 doubles to v??
+void f(const vector&);
+f(10);  // ? what's this??
+```
 
 

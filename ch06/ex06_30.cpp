@@ -1,3 +1,11 @@
+/*
+  ex06_30.cpp
+  
+  Exercise 06.30
+
+  Created by Wang Zhe on Mon Aug 24 22:18:32 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 // incorrect return values, this code will not compile
 #include <iostream>
 #include <string>

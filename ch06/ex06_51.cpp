@@ -1,3 +1,11 @@
+/*
+  ex06_51.cpp
+  
+  Exercise 06.51
+
+  Created by Wang Zhe on Tue Aug 25 18:43:47 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 
 void f() {

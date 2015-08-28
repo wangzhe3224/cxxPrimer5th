@@ -1,3 +1,11 @@
+/*
+  ex05_12.cpp
+  
+  Exercise 05.12
+
+  Created by Wang Zhe on Sun Aug 23 08:05:49 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 
 using std::cin; using std::cout; using std::endl;

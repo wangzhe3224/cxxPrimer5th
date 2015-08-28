@@ -1,3 +1,12 @@
+/*
+  ex08_01.cpp
+  
+  Exercise 08.01
+
+  Created by Wang Zhe on Fri Aug 28 21:03:53 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
+
 #include <iostream>
 #include <string>
 

@@ -1,3 +1,11 @@
+/*
+  ex13_22.cpp
+  
+  Exercise 13.22
+
+  Created by Wang Zhe on Mon Aug 17 14:33:37 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 // class as a value...
 #include <iostream>
 #include <string>

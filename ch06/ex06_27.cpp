@@ -1,3 +1,11 @@
+/*
+  ex06_27.cpp
+  
+  Exercise 06.27
+
+  Created by Wang Zhe on Mon Aug 24 19:12:58 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <initializer_list>
 #include <iostream>
 

@@ -1,3 +1,11 @@
+/*
+  ex03_20.cpp
+  
+  Exercise 03.20
+
+  Created by Wang Zhe on Tue Aug 18 09:00:17 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <vector>
 #include <iostream>
 using namespace std;

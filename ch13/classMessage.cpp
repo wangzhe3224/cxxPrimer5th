@@ -1,3 +1,11 @@
+/*
+  classMessage.cpp
+  
+  Exercise as.Me
+
+  Created by Wang Zhe on Mon Aug 17 17:35:34 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include "classMessage.h"
 #include <iostream>
 

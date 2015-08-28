@@ -1,3 +1,19 @@
+/*
+  ex09_26.cpp
+  
+  Exercise 09.26
+
+  Created by Wang Zhe on Fri Aug 28 21:03:53 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
+/*
+  ex09_26.cpp
+  
+  Exercise 09.26
+
+  Created by Wang Zhe on Tue Aug 18 16:54:53 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 #include <vector>
 #include <list>

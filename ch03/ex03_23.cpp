@@ -1,3 +1,11 @@
+/*
+  ex03_23.cpp
+  
+  Exercise 03.23
+
+  Created by Wang Zhe on Tue Aug 18 11:48:30 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 #include <string>
 #include <vector>

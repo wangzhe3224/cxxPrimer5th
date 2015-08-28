@@ -1,3 +1,11 @@
+/*
+  ex05_23.cpp
+  
+  Exercise 05.23
+
+  Created by Wang Zhe on Sun Aug 23 13:25:09 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 #include <stdexcept>
 

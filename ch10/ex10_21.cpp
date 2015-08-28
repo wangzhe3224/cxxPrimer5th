@@ -1,3 +1,11 @@
+/*
+  ex10_21.cpp
+  
+  Exercise 10.21
+
+  Created by Wang Zhe on Wed Aug 19 13:24:40 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 #include <string>
 #include <vector>

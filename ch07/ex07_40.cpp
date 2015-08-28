@@ -1,3 +1,11 @@
+/*
+  ex07_40.cpp
+  
+  Exercise 07.40
+
+  Created by Wang Zhe on Thu Aug 27 15:41:47 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include "ex07_40.h"
 
 int main() {

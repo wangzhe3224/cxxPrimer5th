@@ -1,3 +1,11 @@
+/*
+  ex13_17_2.cpp
+  
+  Exercise 13.17
+
+  Created by Wang Zhe on Mon Aug 17 13:37:06 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 
 static int Co = 0;

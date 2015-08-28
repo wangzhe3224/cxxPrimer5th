@@ -1,3 +1,11 @@
+/*
+  ex10_07.cpp
+  
+  Exercise 10.07
+
+  Created by Wang Zhe on Tue Aug 18 23:17:03 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 #include <vector>
 #include <list>

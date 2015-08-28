@@ -1,3 +1,11 @@
+/*
+  ex03_08_1.cpp
+  
+  Exercise 03.08
+
+  Created by Wang Zhe on Mon Aug 17 21:42:14 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <string>
 #include <iostream>
 using namespace std;

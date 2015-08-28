@@ -1,3 +1,11 @@
+/*
+  ex10_24.cpp
+  
+  Exercise 10.24
+
+  Created by Wang Zhe on Wed Aug 19 15:50:17 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 #include <string>
 #include <vector>

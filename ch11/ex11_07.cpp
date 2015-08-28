@@ -1,3 +1,11 @@
+/*
+  ex11_07.cpp
+  
+  Exercise 11.07
+
+  Created by Wang Zhe on Wed Aug 19 22:08:36 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 #include <map>
 #include <string>

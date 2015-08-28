@@ -1,3 +1,11 @@
+/*
+  ex05_21.cpp
+  
+  Exercise 05.21
+
+  Created by Wang Zhe on Sun Aug 23 12:35:48 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 #include <string>
 

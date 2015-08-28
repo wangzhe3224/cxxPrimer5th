@@ -1,3 +1,11 @@
+/*
+  ex06_05.cpp
+  
+  Exercise 06.05
+
+  Created by Wang Zhe on Sun Aug 23 14:20:15 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 
 int abs(int a) {

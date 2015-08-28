@@ -1,3 +1,11 @@
+/*
+  ex05_19.cpp
+  
+  Exercise 05.19
+
+  Created by Wang Zhe on Sun Aug 23 10:14:45 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 #include <string>
 

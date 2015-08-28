@@ -1,3 +1,11 @@
+/*
+  ex06_25.cpp
+  
+  Exercise 06.25
+
+  Created by Wang Zhe on Mon Aug 24 18:50:56 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 
 void print(const char *p) {

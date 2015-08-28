@@ -1,3 +1,11 @@
+/*
+  ex05_25.cpp
+  
+  Exercise 05.25
+
+  Created by Wang Zhe on Sun Aug 23 13:27:01 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 #include <stdexcept>
 using std::cin; using std::cout; using std::endl; using std::runtime_error;

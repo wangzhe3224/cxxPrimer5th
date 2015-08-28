@@ -1,3 +1,11 @@
+/*
+  ex07_42.h
+  
+  Exercise 07.42
+
+  Created by Wang Zhe on Thu Aug 27 15:58:36 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #ifndef ex07_42_h
 #define ex07_42_h
 #include <iostream>

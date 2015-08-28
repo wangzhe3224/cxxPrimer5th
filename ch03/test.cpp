@@ -1,3 +1,11 @@
+/*
+  test.cpp
+  
+  Exercise st.cp
+
+  Created by Wang Zhe on Tue Aug 18 10:54:11 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <vector>
 #include <iostream>
 #include <string>

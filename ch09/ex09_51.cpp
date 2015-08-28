@@ -1,3 +1,19 @@
+/*
+  ex09_51.cpp
+  
+  Exercise 09.51
+
+  Created by Wang Zhe on Fri Aug 28 21:03:53 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
+/*
+  ex09_51.cpp
+  
+  Exercise 09.51
+
+  Created by Wang Zhe on Tue Aug 18 17:49:46 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 #include <stack>
 #include <string>

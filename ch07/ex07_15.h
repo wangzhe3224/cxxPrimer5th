@@ -1,3 +1,11 @@
+/*
+  ex07_15.h
+  
+  Exercise 07.15
+
+  Created by Wang Zhe on Wed Aug 26 14:59:09 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #ifndef ex07_15_h
 #define ex07_15_h
 

@@ -1,3 +1,11 @@
+/*
+  ex06_04.cpp
+  
+  Exercise 06.04
+
+  Created by Wang Zhe on Sun Aug 23 14:17:07 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 
 int myfunc() {

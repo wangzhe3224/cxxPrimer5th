@@ -1,3 +1,11 @@
+/*
+  ex04_22.cpp
+  
+  Exercise 04.22
+
+  Created by Wang Zhe on Sat Aug 22 19:05:16 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 #include <vector>
 

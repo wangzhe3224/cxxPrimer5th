@@ -1,3 +1,11 @@
+/*
+  ex07_26.cpp
+  
+  Exercise 07.26
+
+  Created by Wang Zhe on Thu Aug 27 18:26:22 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include "ex07_26.h"
 #include <string>
 int main() {

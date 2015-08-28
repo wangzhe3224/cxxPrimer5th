@@ -1,3 +1,11 @@
+/*
+  ex13_26.cpp
+  
+  Exercise 13.26
+
+  Created by Wang Zhe on Mon Aug 17 14:56:33 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include "ex13_26.h"
 
 ConstStrBlobPtr StrBlob::begin() const // should add const

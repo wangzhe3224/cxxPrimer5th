@@ -1,3 +1,11 @@
+/*
+  ex10_11.cpp
+  
+  Exercise 10.11
+
+  Created by Wang Zhe on Wed Aug 19 11:06:36 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 #include <vector>
 #include <algorithm>

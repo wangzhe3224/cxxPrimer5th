@@ -1,3 +1,11 @@
+/*
+  ex05_17.cpp
+  
+  Exercise 05.17
+
+  Created by Wang Zhe on Sun Aug 23 09:42:40 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 #include <vector>
 

@@ -1,3 +1,19 @@
+/*
+  ex10_20.cpp
+  
+  Exercise 10.20
+
+  Created by Wang Zhe on Fri Aug 28 21:03:53 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
+/*
+  ex10_20.cpp
+  
+  Exercise 10.20
+
+  Created by Wang Zhe on Wed Aug 19 13:11:08 2015
+  Copyright (c) 2014 Wang Zhe. All rights reserved.
+*/
 #include <iostream>
 #include <string>
 #include <vector>
