@@ -8,4 +8,5 @@
 ## [Chapter 09 Sequential Containers](ch09)
 ## [Chapter 10 Generic Algorithm](ch10) 
 ## [Chapter 11 Associative Containers](ch11)
+## [Chapter 12 Dynamic Memory](ch12)
 ## [Chapter 13 Copy Control](ch13)
