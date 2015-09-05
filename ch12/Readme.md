@@ -33,4 +33,18 @@ Because `i` is a size_type which is an unsigned type.
   * Allow automatic conversion. In this case, `StrBlob s1 = {"1","2"}` is OK and it looks legible.
   * But sometimes, it doesn't looks legible. For example, `std::vector<int> v = 20;`. What is the meaning of this statement if there is `explicit` in the constructor of `std::vector<type>`? A vector contains one element of 20? Or A vector contains 20 elements?
 
+## Exercise 12.6 | [Code](ex12_06.cpp)
+
+## Exercise 12.7 | [Code](ex12_07.cpp)
+
+## Exercise 12.8
+
+Pointer `p` will be convered to a bool type, and we can never free the memory space by the pointer.
+
+## Exercise 12.9
+
+- when `r = q`, r points to the memory space of `int(100)`, and `int(42)` losed the pointer. Memory leakage will happen cause we can't free `int(42)`.
+
+- when `r2 = q2`, the reference count of `r2` will become 0 and `r2`'s memory space is freed automatically.
+
 
