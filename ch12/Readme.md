@@ -47,4 +47,44 @@ Pointer `p` will be convered to a bool type, and we can never free the memory sp
 
 - when `r2 = q2`, the reference count of `r2` will become 0 and `r2`'s memory space is freed automatically.
 
+## Exercise 12.10
+
+Correct.
+
+## Exercise 12.11
+> process(shared_ptr<int>(p.get()));
+
+We can't do this.  
+In this case, a temporary smart pointer is passing to the function `process`, but this temporary smart pointer points to the same space as p does. When the function ends, the temporary pointer will be destructed which also frees the memory space. For now, smart pointer `p` points to a freed space....
+
+## Exercise 12.12
+
+~~~
+auto p = new int();
+auto sp = make_shared<int>();
+void process(shared_ptr<int> ptr)
+{
+    // use ptr
+} // ptr goes out of scope and is destroyed
+~~~
+
+a. `process(sp)`: legal. `sp` has a sheard_prt type. A copy of `sp` passes into the process function. The reference count increases 1, and when the function call the reference decrease 1.
+
+b. `process(new int())`: illegal. plain pointer can not implicitly converts to a shared_ptr.
+
+c. `process(p)`: illegal. The same reason as b.
+
+d. `process(shared_ptr<int>(p))`: legal. But this is dangeours. Because the temprory smart pointer may free the memory space pointed by p then p becomes a danling pointer....
+
+## Exercise 12.13
+
+~~~
+auto sp = make_shared<int>();
+auto p = sp.get();
+delete p;
+~~~
+
+Error. In this case, plain pointer `p` and smart pointer `sp` point to the same memory space. But `p` is explicitly freed, when `sp` destructs, it will try to free the same space twice!  
+But whether `sp` is going to destruct depends on its reference count.
+
 
